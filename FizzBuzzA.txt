@@ -1,0 +1,21 @@
+public string FizzBuzz(int in01)
+{
+    
+
+    if (in01 % 3 == 0)
+    {
+        return Console.WriteLine("fizz");
+    }
+    else if (in01 % 5 == 0)
+    {
+        return Console.WriteLine("buzz");
+    }
+    else if (in01 % 3 == 0 && in01 % 5) 
+    {
+        return Console.WriteLine("fizzbuzz");
+    }
+    else
+    {
+        return System.Console.WriteLine("...");
+    }
+}
