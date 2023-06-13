@@ -1,6 +1,6 @@
 public static string FizzBuzz(int in01)
 {
-    if (in01 % 3 == 0 && in01 % 5) 
+    if(in01 % 3 == 0 && in01 % 5 == 0) 
     {
         return "fizzbuzz";
     }
